@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App</title>
+  </head>
+  <body>
+    <h2>Inserisci un URL</h2>
+
+    <form id="urlForm" method="post">
+      <label for="url">URL:</label><br />
+      <input type="url" id="urlInput" name="url" required /><br /><br />
+      <input type="submit" value="Send" />
+    </form>
+
+    <h3>
+      Checkbox primaria che deve generare il prompt per l'ai del testo va qui:
+    </h3>
+    <div id="Arguments"></div>
+    <h4>Testo:</h4>
+    <div id="Content"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
